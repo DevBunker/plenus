@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^home/?$ view/home [NC,L]
+RewriteRule ^contato/?$ view/contato [NC,L]
+RewriteRule ^menu/?$ view/menu [NC,L]
+RewriteRule ^sobre/?$ view/sobre [NC,L]
+RewriteRule ^vagas/?$ view/vagas [NC,L]
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
