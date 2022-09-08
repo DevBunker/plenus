@@ -1,0 +1,61 @@
+
+#img-fundo-top{
+	display: flex;
+	flex-direction: row;
+	background-size: cover;
+	height: 1148px;
+	background-image: url(../img/home.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: #fff;
+}
+
+#card {
+	height: 420px;
+	background-color: rgba(50, 40, 91, 1);
+	border-radius: 0px;
+	border-color: rgba(50, 40, 91, 1);
+	font-size: 16px;
+	color: black;
+	-webkit-box-shadow: 5px 5px 7px 3px rgba(0,0,0,0.35);
+	box-shadow: 10px 10px 7px 3px rgba(0,0,0,0.35);
+}
+
+#card p{
+	font-size: 24px;
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: justify;
+	color: white;
+	max-height: 200px;
+	overflow: auto;
+}
+
+#card h5{
+	margin-top: 30px;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+}
+
+#general-content{
+	max-width: 1600px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#bottom-content{
+	flex: 1;
+	align-self: flex-end;
+	margin-bottom: 80px;
+}
+
+/*Se resolucao for maior que 1600px*/
+@media (min-width: 1600px) {
+	#bottom-content {
+		margin-bottom: 25px;
+	}
+}
