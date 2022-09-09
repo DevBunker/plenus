@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
 
 	<script src="assets/bootstrap/js/bootstrap.js"></script>
 </head>
@@ -18,6 +19,10 @@
 	<?php include 'menu.php'; ?>
 
 	<div class="row" id="general-content">
+
+
+
+
 		<div class="container-fluid" id="img-fundo-top">
 			<div id="bottom-content">
 				<div class="row">
@@ -30,16 +35,29 @@
 									prestar serviço diferenciado, tem como foco atender as empresas com agilidade,
 									desenvolvendo e qualificando o mercado de trabalho, através da contratação de
 								profissionas efetivos, treinamento e consultoria em Recursos Humanos.</p>
-
-								<a href="#" class="card text-end">Card link</a>
+								<div class="row">
+									<div class="col-lg-9 col-md-1 col-sm-1">
+									</div>
+									<div class="col-lg-3 col-md-11 col-sm-11">
+										<button type="button" class="btn btn-custom-card">
+											<span class="btn-icon-card"><i class="fa fa-plus"></i></span>
+											Saiba mais
+										</button>
+									</div>
+								</div>
 							</div>
+
 						</div>
 					</div>
-					<div class="col-lg-2 col-md-2 col-sm-2"></div>
 				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2"></div>
 			</div>
 		</div>
+
+
+
 	</div>
+
 
 	<br>
 	<br>

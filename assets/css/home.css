@@ -50,12 +50,36 @@
 #bottom-content{
 	flex: 1;
 	align-self: flex-end;
-	margin-bottom: 80px;
+	margin-bottom: 185px;
 }
 
-/*Se resolucao for maior que 1600px*/
-@media (max-width: 1700px) {
+@media (min-width: 1600px) {
 	#bottom-content {
-		margin-bottom: 180px;
+		margin-bottom: 80px;
 	}
+}
+
+#button-content{
+	margin-top:  30px!important;
+}
+
+.btn-custom-card{
+	background-color: white!important;
+	border-color: white!important;
+	margin-left: 20px;
+	color: rgba(50, 40, 91, 1)!important;
+	font-weight: bold!important;
+}
+
+.btn-icon-card {
+	padding: 8px 10px 9px 2px;
+	border-radius: 4px 0 0 5px;
+	background-color: rgba(93, 22, 180, 1);
+	margin-left: -13px;
+}
+
+.fa-plus{
+	color: white!important;
+	margin-left: 10px;
+	font-size: 18px!important;
 }
