@@ -54,7 +54,7 @@
 }
 
 /*Se resolucao for maior que 1600px*/
-@media (max-width: 1800px) {
+@media (max-width: 1700px) {
 	#bottom-content {
 		margin-bottom: 180px;
 	}
