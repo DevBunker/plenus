@@ -54,16 +54,46 @@
 			</div>
 		</div>
 
+		<div class="container-fluid" id="img-fundo-center">
+			<div class="row" id="center-content">
+				<div class="col-lg-12">
+					<h1 id="titulo-fundo-center">Encontre sua vaga de emprego</h1>
+				</div>
+				<div class="col-lg-12">⠀</div>
+				<div class="col-lg-12">⠀</div>
+				<div class="col-lg-12">
+					<div class="input-group input-group-lg">
+						<input type="text" class="form-control" id="input-vagas" placeholder="Digite um cargo ou empresa">
+						<span class="input-group-text">BUSCAR</span>
+
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+
 
 
 	</div>
 
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+
+
 
 </body>
 </html>
